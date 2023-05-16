@@ -40,6 +40,30 @@ function Root() {
   // };
   // console.log(planets.filter((planet) => planet.name === "Mercury"));
 
+  // interface PlanetsSectionProps {
+  //   content: string;
+  //   source: string;
+  //   size?: string;
+  // }
+
+  // interface PlanetsImgProps {
+  //   planet: string;
+  //   internal: string;
+  //   geology: string;
+  // }
+
+  // interface PlanetsProps {
+  //   name: string;
+  //   overview: PlanetsSectionProps;
+  //   structure: PlanetsSectionProps;
+  //   geology: PlanetsSectionProps;
+  //   rotation: string;
+  //   revolution: string;
+  //   radius: string;
+  //   temperature: string;
+  //   images: PlanetsImgProps;
+  // }
+
   const [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune] = planets;
 
   const [
